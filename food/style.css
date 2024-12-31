@@ -1,0 +1,224 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    top: 0%;
+}
+
+header .logo h1 {
+    font-size: 30px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #d2cdb8;
+}
+
+header .cart a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+#home {
+    background-color: aqua;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(10, 9, 9);
+}
+
+#home .hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#home .hero p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+#home .hero .cta {
+    background-color: #c5dbd2;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#home .hero .cta:hover {
+    background-color: #e6e0cc;
+}
+
+/* About Us Section */
+#about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#about .about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about .about-content p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Product Section Styles */
+#shop {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#shop h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product .price {
+    font-size: 18px;
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+.product .btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product .btn:hover {
+    background-color: #45a049;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #fff;
+    padding: 50px 20px;
+    
+}
+
+#contact .contact-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact form label {
+    font-size: 18px;
+}
+
+#contact form input,
+#contact form textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form button {
+    background-color: #11110f;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+#contact form button:hover {
+    background-color: #13120c;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
